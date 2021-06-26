@@ -14,10 +14,28 @@
 		3C9FD7AE268467DC003F9614 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7AD268467DC003F9614 /* debug.c */; };
 		3C9FD7B226847F1B003F9614 /* value.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7B126847F1B003F9614 /* value.c */; };
 		3C9FD7B626862752003F9614 /* line.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7B526862752003F9614 /* line.c */; };
+		3C9FD7C42686DF48003F9614 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7C32686DF48003F9614 /* main.c */; };
+		3C9FD7D02686E3A3003F9614 /* unity.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7CD2686E3A3003F9614 /* unity.c */; };
+		3C9FD7D52686F885003F9614 /* line.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7B526862752003F9614 /* line.c */; };
+		3C9FD7D82686F898003F9614 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7A926845F3F003F9614 /* memory.c */; };
+		3C9FD7DF2686FAEE003F9614 /* line_tests.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7DE2686FAEE003F9614 /* line_tests.c */; };
+		3C9FD7EA26871C68003F9614 /* chunk_tests.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7E926871C68003F9614 /* chunk_tests.c */; };
+		3C9FD7ED26871C9B003F9614 /* chunk.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7A42684568C003F9614 /* chunk.c */; };
+		3C9FD7F026871E0E003F9614 /* value.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7B126847F1B003F9614 /* value.c */; };
+		3C9FD7F4268729A8003F9614 /* value_tests.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7F3268729A8003F9614 /* value_tests.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		3C9FD78E26843514003F9614 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3C9FD7BF2686DF48003F9614 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -42,10 +60,25 @@
 		3C9FD7B126847F1B003F9614 /* value.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = value.c; sourceTree = "<group>"; };
 		3C9FD7B426862752003F9614 /* line.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = line.h; sourceTree = "<group>"; };
 		3C9FD7B526862752003F9614 /* line.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = line.c; sourceTree = "<group>"; };
+		3C9FD7C12686DF48003F9614 /* cLoxTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cLoxTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9FD7C32686DF48003F9614 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3C9FD7CD2686E3A3003F9614 /* unity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unity.c; sourceTree = "<group>"; };
+		3C9FD7CE2686E3A3003F9614 /* unity_internals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unity_internals.h; sourceTree = "<group>"; };
+		3C9FD7CF2686E3A3003F9614 /* unity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unity.h; sourceTree = "<group>"; };
+		3C9FD7DE2686FAEE003F9614 /* line_tests.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = line_tests.c; sourceTree = "<group>"; };
+		3C9FD7E926871C68003F9614 /* chunk_tests.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chunk_tests.c; sourceTree = "<group>"; };
+		3C9FD7F3268729A8003F9614 /* value_tests.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = value_tests.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3C9FD78D26843514003F9614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9FD7BE2686DF48003F9614 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				3C9FD79226843514003F9614 /* cLox */,
+				3C9FD7C22686DF48003F9614 /* cLoxTests */,
 				3C9FD79126843514003F9614 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				3C9FD79026843514003F9614 /* cLox */,
+				3C9FD7C12686DF48003F9614 /* cLoxTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +125,28 @@
 			path = cLox;
 			sourceTree = "<group>";
 		};
+		3C9FD7C22686DF48003F9614 /* cLoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C9FD7DB2686F964003F9614 /* unity */,
+				3C9FD7C32686DF48003F9614 /* main.c */,
+				3C9FD7DE2686FAEE003F9614 /* line_tests.c */,
+				3C9FD7E926871C68003F9614 /* chunk_tests.c */,
+				3C9FD7F3268729A8003F9614 /* value_tests.c */,
+			);
+			path = cLoxTests;
+			sourceTree = "<group>";
+		};
+		3C9FD7DB2686F964003F9614 /* unity */ = {
+			isa = PBXGroup;
+			children = (
+				3C9FD7CE2686E3A3003F9614 /* unity_internals.h */,
+				3C9FD7CD2686E3A3003F9614 /* unity.c */,
+				3C9FD7CF2686E3A3003F9614 /* unity.h */,
+			);
+			path = unity;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,6 +167,23 @@
 			productReference = 3C9FD79026843514003F9614 /* cLox */;
 			productType = "com.apple.product-type.tool";
 		};
+		3C9FD7C02686DF48003F9614 /* cLoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9FD7C52686DF48003F9614 /* Build configuration list for PBXNativeTarget "cLoxTests" */;
+			buildPhases = (
+				3C9FD7BD2686DF48003F9614 /* Sources */,
+				3C9FD7BE2686DF48003F9614 /* Frameworks */,
+				3C9FD7BF2686DF48003F9614 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cLoxTests;
+			productName = cLoxTests;
+			productReference = 3C9FD7C12686DF48003F9614 /* cLoxTests */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -119,6 +193,9 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					3C9FD78F26843514003F9614 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3C9FD7C02686DF48003F9614 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -137,6 +214,7 @@
 			projectRoot = "";
 			targets = (
 				3C9FD78F26843514003F9614 /* cLox */,
+				3C9FD7C02686DF48003F9614 /* cLoxTests */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +231,22 @@
 				3C9FD7AA26845F3F003F9614 /* memory.c in Sources */,
 				3C9FD7A126843653003F9614 /* chunk.h in Sources */,
 				3C9FD7B626862752003F9614 /* line.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9FD7BD2686DF48003F9614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9FD7F4268729A8003F9614 /* value_tests.c in Sources */,
+				3C9FD7C42686DF48003F9614 /* main.c in Sources */,
+				3C9FD7EA26871C68003F9614 /* chunk_tests.c in Sources */,
+				3C9FD7D52686F885003F9614 /* line.c in Sources */,
+				3C9FD7D82686F898003F9614 /* memory.c in Sources */,
+				3C9FD7D02686E3A3003F9614 /* unity.c in Sources */,
+				3C9FD7F026871E0E003F9614 /* value.c in Sources */,
+				3C9FD7ED26871C9B003F9614 /* chunk.c in Sources */,
+				3C9FD7DF2686FAEE003F9614 /* line_tests.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +380,24 @@
 			};
 			name = Release;
 		};
+		3C9FD7C62686DF48003F9614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C9FD7C72686DF48003F9614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -303,6 +415,15 @@
 			buildConfigurations = (
 				3C9FD79826843514003F9614 /* Debug */,
 				3C9FD79926843514003F9614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9FD7C52686DF48003F9614 /* Build configuration list for PBXNativeTarget "cLoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9FD7C62686DF48003F9614 /* Debug */,
+				3C9FD7C72686DF48003F9614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
