@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include "chunk.h"
 #include "debug.h"
+#include "check.h"
 
 int main(int argc, const char * argv[]) {
     Chunk chunk;
