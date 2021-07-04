@@ -12,6 +12,7 @@
 
 typedef struct {
     int capacity;
+    int count;
     int* lines;
 } LineArray;
 
