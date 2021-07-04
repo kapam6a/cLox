@@ -23,6 +23,7 @@
 		3C9FD7ED26871C9B003F9614 /* chunk.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7A42684568C003F9614 /* chunk.c */; };
 		3C9FD7F026871E0E003F9614 /* value.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7B126847F1B003F9614 /* value.c */; };
 		3C9FD7F4268729A8003F9614 /* value_tests.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7F3268729A8003F9614 /* value_tests.c */; };
+		3C9FD7F926918081003F9614 /* vm.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7F826918081003F9614 /* vm.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +69,8 @@
 		3C9FD7DE2686FAEE003F9614 /* line_tests.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = line_tests.c; sourceTree = "<group>"; };
 		3C9FD7E926871C68003F9614 /* chunk_tests.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chunk_tests.c; sourceTree = "<group>"; };
 		3C9FD7F3268729A8003F9614 /* value_tests.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = value_tests.c; sourceTree = "<group>"; };
+		3C9FD7F726918081003F9614 /* vm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vm.h; sourceTree = "<group>"; };
+		3C9FD7F826918081003F9614 /* vm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vm.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				3C9FD79B2684354B003F9614 /* common.h */,
 				3C9FD7B426862752003F9614 /* line.h */,
 				3C9FD7B526862752003F9614 /* line.c */,
+				3C9FD7F726918081003F9614 /* vm.h */,
+				3C9FD7F826918081003F9614 /* vm.c */,
 				3C9FD7A026843653003F9614 /* chunk.h */,
 				3C9FD7A42684568C003F9614 /* chunk.c */,
 				3C9FD7A726845C04003F9614 /* memory.h */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9FD7F926918081003F9614 /* vm.c in Sources */,
 				3C9FD7A52684568C003F9614 /* chunk.c in Sources */,
 				3C9FD7AE268467DC003F9614 /* debug.c in Sources */,
 				3C9FD79426843514003F9614 /* main.c in Sources */,
