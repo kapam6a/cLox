@@ -24,6 +24,8 @@
 		3C9FD7F026871E0E003F9614 /* value.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7B126847F1B003F9614 /* value.c */; };
 		3C9FD7F4268729A8003F9614 /* value_tests.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7F3268729A8003F9614 /* value_tests.c */; };
 		3C9FD7F926918081003F9614 /* vm.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD7F826918081003F9614 /* vm.c */; };
+		3C9FD868269FD7B0003F9614 /* compiler.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD867269FD7B0003F9614 /* compiler.c */; };
+		3C9FD86D269FD825003F9614 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD86C269FD825003F9614 /* scanner.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +73,10 @@
 		3C9FD7F3268729A8003F9614 /* value_tests.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = value_tests.c; sourceTree = "<group>"; };
 		3C9FD7F726918081003F9614 /* vm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vm.h; sourceTree = "<group>"; };
 		3C9FD7F826918081003F9614 /* vm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vm.c; sourceTree = "<group>"; };
+		3C9FD866269FD7B0003F9614 /* compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compiler.h; sourceTree = "<group>"; };
+		3C9FD867269FD7B0003F9614 /* compiler.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compiler.c; sourceTree = "<group>"; };
+		3C9FD86B269FD825003F9614 /* scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scanner.h; sourceTree = "<group>"; };
+		3C9FD86C269FD825003F9614 /* scanner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 				3C9FD7B526862752003F9614 /* line.c */,
 				3C9FD7F726918081003F9614 /* vm.h */,
 				3C9FD7F826918081003F9614 /* vm.c */,
+				3C9FD866269FD7B0003F9614 /* compiler.h */,
+				3C9FD867269FD7B0003F9614 /* compiler.c */,
+				3C9FD86B269FD825003F9614 /* scanner.h */,
+				3C9FD86C269FD825003F9614 /* scanner.c */,
 				3C9FD7A026843653003F9614 /* chunk.h */,
 				3C9FD7A42684568C003F9614 /* chunk.c */,
 				3C9FD7A726845C04003F9614 /* memory.h */,
@@ -231,6 +241,8 @@
 			files = (
 				3C9FD7F926918081003F9614 /* vm.c in Sources */,
 				3C9FD7A52684568C003F9614 /* chunk.c in Sources */,
+				3C9FD86D269FD825003F9614 /* scanner.c in Sources */,
+				3C9FD868269FD7B0003F9614 /* compiler.c in Sources */,
 				3C9FD7AE268467DC003F9614 /* debug.c in Sources */,
 				3C9FD79426843514003F9614 /* main.c in Sources */,
 				3C9FD7B226847F1B003F9614 /* value.c in Sources */,
