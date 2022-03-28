@@ -44,9 +44,9 @@ typedef struct {
 #define OBJ_VAL(object)   ((Value){VAL_OBJ, {.obj = (Obj*)object}})
 
 typedef struct {
-  int capacity;
-  int count;
-  Value* values;
+    int capacity;
+    int count;
+    Value* values;
 } ValueArray;
 
 bool valuesEqual(Value a, Value b);
