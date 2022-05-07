@@ -41,7 +41,10 @@ typedef enum {
     OP_SUBTRACT,
     OP_MULTIPLY,
     OP_DIVIDE,
-    OP_RETURN
+    OP_RETURN,
+    OP_GET_PROPERTY,
+    OP_SET_PROPERTY,
+    OP_CLASS
 } OpCode;
 
 typedef struct {
